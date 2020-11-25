@@ -1,0 +1,19 @@
+{
+  "name": "leaflet-express",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "browserify webmap.js -o public/javascripts/webmap.js "
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "geolocation": "^0.2.0",
+    "leaflet": "^1.7.1",
+    "leaflet-draw-toolbar": "^0.3.0-alpha.1",
+    "leaflet-toolbar": "^0.4.0-alpha.2",
+    "morgan": "~1.9.1"
+  }
+}
